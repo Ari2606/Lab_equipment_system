@@ -1,3 +1,4 @@
+// JPA entity representing equipment with category, lab, and status fields
 package com.example.labtrack.domain;
 
 import jakarta.persistence.*;
