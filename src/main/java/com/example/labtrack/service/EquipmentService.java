@@ -1,3 +1,4 @@
+// Service interface defining equipment CRUD operations
 package com.example.labtrack.service;
 
 import com.example.labtrack.domain.Equipment;
