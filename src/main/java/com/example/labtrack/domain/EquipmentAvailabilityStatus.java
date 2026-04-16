@@ -1,3 +1,4 @@
+// Enum representing equipment availability states
 package com.example.labtrack.domain;
 
 public enum EquipmentAvailabilityStatus {
