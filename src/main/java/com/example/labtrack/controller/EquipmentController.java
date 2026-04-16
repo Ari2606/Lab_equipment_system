@@ -1,3 +1,4 @@
+// Handles equipment CRUD operations with validation and role-based access
 package com.example.labtrack.controller;
 
 import com.example.labtrack.domain.ConditionStatus;
