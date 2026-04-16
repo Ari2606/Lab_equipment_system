@@ -1,3 +1,4 @@
+// JPA entity for equipment categories with name and description
 package com.example.labtrack.domain;
 
 import jakarta.persistence.Column;
