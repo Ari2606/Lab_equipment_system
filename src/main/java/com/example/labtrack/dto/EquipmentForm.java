@@ -1,3 +1,4 @@
+// DTO for equipment form input with validation constraints
 package com.example.labtrack.dto;
 
 import com.example.labtrack.domain.ConditionStatus;
