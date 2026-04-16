@@ -1,3 +1,4 @@
+// Repository for Equipment with search and filter methods
 package com.example.labtrack.repository;
 
 import com.example.labtrack.domain.ConditionStatus;
