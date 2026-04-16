@@ -1,3 +1,4 @@
+// Service implementation handling equipment CRUD and form-to-entity mapping
 package com.example.labtrack.service.impl;
 
 import com.example.labtrack.domain.Equipment;
