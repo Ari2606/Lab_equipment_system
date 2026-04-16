@@ -1,3 +1,4 @@
+// Repository for EquipmentCategory CRUD operations
 package com.example.labtrack.repository;
 
 import com.example.labtrack.domain.EquipmentCategory;
