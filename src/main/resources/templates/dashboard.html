@@ -1,0 +1,3 @@
+<!DOCTYPE html><html xmlns:th="http://www.thymeleaf.org"><head><title>Dashboard</title><link rel="stylesheet" th:href="@{/css/app.css}"></head><body>
+<div th:replace="~{fragments/nav :: nav}"></div><div class="container"><h1>Welcome, <span th:text="${currentUser.fullName}"></span></h1>
+<div class="grid"><div class="card">Equipment: <b th:text="${equipmentCount}"></b></div><div class="card">Reservations: <b th:text="${reservationCount}"></b></div><div class="card">Damage Reports: <b th:text="${damageCount}"></b></div><div class="card">Fines: <b th:text="${fineCount}"></b></div></div></div></body></html>

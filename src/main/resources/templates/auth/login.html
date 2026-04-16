@@ -1,0 +1,4 @@
+<!DOCTYPE html><html xmlns:th="http://www.thymeleaf.org"><head><title>Login</title><link rel="stylesheet" th:href="@{/css/app.css}"></head><body><div class="container"><h2>Login</h2>
+<p class="success" th:if="${param.registered}">Registration successful. Please login.</p>
+<form th:action="@{/login}" method="post"><div><label>Username</label><input name="username"></div><div><label>Password</label><input type="password" name="password"></div><button type="submit">Login</button></form>
+<p>New user? <a th:href="@{/register}">Register here</a></p></div></body></html>

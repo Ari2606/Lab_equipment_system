@@ -1,0 +1,12 @@
+<nav xmlns:th="http://www.thymeleaf.org" th:fragment="nav">
+    <a th:href="@{/dashboard}">Dashboard</a>
+    <a th:href="@{/equipment}">Equipment</a>
+    <a th:href="@{/reservations}">Reservations</a>
+    <a th:href="@{/damage}">Damage</a>
+    <a th:href="@{/admin/users}">Admin</a>
+    <a th:href="@{/admin/fines}">Fines</a>
+    <a th:href="@{/admin/reports}">Reports</a>
+    <form th:action="@{/logout}" method="post" style="display:inline; margin-left: 12px;">
+        <button type="submit" class="btn-secondary">Logout</button>
+    </form>
+</nav>
